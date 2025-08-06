@@ -9,15 +9,24 @@ export default function ContactForm() {
     setForm(prev => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = e => {
-    e.preventDefault()
-    console.log('Form submitted:', form)
-    alert('Thanks! We’ll get back to you soon.')
-  }
+  const handleSubmit = async (e) => {
+   e.preventDefault();
+    
+   const formData = new FormData(e.target);
+    
+   const res = await fetch('/contact.php', {
+     method: 'POST',
+     body: formData
+   });
+  
+   const text = await res.text();
+   alert(text); // Show result from PHP
+  };
+
 
   return (
     <div className="max-w-sm sm:max-w-md lg:max-w-lg mx-auto px-4 sm:px-6 lg:px-12">
-    <form className="bg-gray-100 p-6 rounded-xl shadow-md space-y-5 flex flex-col gap-4" onSubmit={handleSubmit}>
+    <form method="POST" action="/contact.php" className="bg-gray-100 p-6 rounded-xl shadow-md space-y-5 flex flex-col gap-4" onSubmit={handleSubmit}>
       <input
         className= "w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         type="text"

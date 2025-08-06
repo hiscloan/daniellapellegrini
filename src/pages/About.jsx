@@ -8,7 +8,7 @@ export default function About() {
     
     <div className="min-h-screen text-gray-900 p-6">
     <h1 className="text-5xl font-extrabold text-center mb-12 a text-blue-950" data-aos="fade-down">
-        About Me
+        About Daniella
     </h1>
 
       <section className="p-8 bg-orange-50 p-8 rounded-2xl shadow-lg transition-all duration-500 hover:shadow-2xl" data-aos="zoom-in" data-aos-delay="100">
