@@ -17,8 +17,42 @@ export default function About() {
             alt="Daniella Portrait"
             className="w-40 h-40 object-cover rounded-full mr-6 mb-4 float-left"
           />
+        <p className="text-lg mb-4">
+          Daniella Pellegrini grew up in Johannesburg, South Africa as the youngest of four children. By the age of three Daniella was already able to do forward rolls, cartwheels and could stand on her hands. Her parents thought the best place for this kind of spirit was inside a gymnastics hall.
+        </p>
 
-        
+        <p className="text-lg mb-4">
+          Daniella had an incredibly rewarding 16 year gymnastics and tumbling career, which saw her compete internationally for a decade and be awarded South African National Colours 8 times.
+        </p>
+
+        <p className="text-lg mb-4">
+          During this time she won three international medals; her first bronze in 1992 at age nine was won at the 11th Tumbling and Trampoline World Championships - a very special win indeed, as it was South Africa’s first international medal after an 8 year ban from sport on a global level due to the Apartheid government.
+        </p>     
+
+        <p className="text-lg mb-4">
+          Her second international medal came in 2001 where she won the gold medal at the 16th Tumbling and Trampoline World Championships acclaiming the title of World Champion in her age group; and finally, in 2002 she won a bronze medal at the international test, South Africa vs. France.
+        </p>
+
+        <p className="text-lg mb-4">
+          Daniella won an impressive 56 medals and 15 trophy’s throughout her career and many other accolades to include South African National Champion in 1992, 1998 and 2001; the first ever athlete to be awarded the South African Gymnastics Federation Female Tumbler of the Year Award in 2000 and then again in 2001; Club Champion in 1992 and 1997 through 2001; 
+          and in 1993 was awarded the Sandton Junior Sports Woman of the Year Award by cricketing ledged Dr Ali Bacha. Daniella was also invited to perform in many displays, the most prestigious of these being the 1998 All African Games Opening Ceremony.
+        </p>
+
+        <p className="text-lg mb-4">
+          Daniella has always had two real passions in life; her sport and the love of media
+        </p>
+
+        <p className="text-lg mb-4">
+          While still at school, Daniella acted and danced in a children’s fitness programme called Sasko Sam and was a kids TV presenter on e-TV.  Upon retiring from international sport in 2002, Daniella undertook and completed her Bachelor’s Degree in Sports Journalism. 
+          While studying her degree Daniella’s love affair with radio and TV really blossomed She had the exciting opportunity to train at 5FM music, one of the largest South African National radio stations as a show host as well as a sports presenter. 
+          Daniella was selected for the opportunity from over 500 entries.
+        </p>
+
+        <p className="text-lg mb-4">
+          In the same year Daniella was chosen as the runner up in the 94.7 Highveld Stereo Hot Jocks competition. 
+          94.7 broadcasts to over 2 million listeners and in 2004 Daniella was taken on as a Freelance radio presenter, hosting primetime shows, chart shows, supporting the breakfast and afternoon drive shows by reading the traffic and covered breaking news.
+        </p>
+
         <p className="text-lg mb-4">
           In 2002, Daniella’s voice became the most heard voice in the nation when she signed a deal with SABC1 the most watched TV channel in South Africa to become their female resident voice.
         </p>

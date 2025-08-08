@@ -24,19 +24,19 @@ export default function Demos() {
       audioUrl: '/audio/Daniella_character.mp3',
     },
     {
-      category: 'Character',
-      description: 'Animated voices for games, podcasts, and storytelling.',
-      audioUrl: '/audio/Daniella_character.mp3',
+      category: 'Coporate',
+      description: 'Professional and engaging for corporate presentations.',
+      audioUrl: '/audio/DaniellaPellegrini_Coporate.mp3',
     },
       {
-      category: 'Character',
-      description: 'Animated voices for games, podcasts, and storytelling.',
-      audioUrl: '/audio/Daniella_character.mp3',
+      category: 'Product',
+      description: 'Engaging voice for product promotions and launches.',
+      audioUrl: '/audio/DaniellaPellegrini_SoftSell.mp3',
     },
       {
-      category: 'Character',
-      description: 'Animated voices for games, podcasts, and storytelling.',
-      audioUrl: '/audio/Daniella_character.mp3',
+      category: 'Presenter',
+      description: 'Dynamic and clear for live events and shows.',
+      audioUrl: '/audio/DaniellaPellegrini_Skill_Presenter.mp3',
     },
   ]
 
