@@ -24,9 +24,9 @@ export default function Demos() {
       audioUrl: '/audio/Daniella_character.mp3',
     },
     {
-      category: 'Coporate',
+      category: 'Corporate',
       description: 'Professional and engaging for corporate presentations.',
-      audioUrl: '/audio/DaniellaPellegrini_Coporate.mp3',
+      audioUrl: '/audio/DaniellaPellegrini_Corporate.mp3',
     },
       {
       category: 'Product',
